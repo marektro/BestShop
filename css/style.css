@@ -46,7 +46,8 @@ li:hover a {
 
 .container {
     margin: 0 auto;
-    width: 1352px;
+    max-width: 1352px;
+    min-width: 500px;
 }
 
 .page-header {
@@ -69,19 +70,26 @@ a.logo {
     color: var(--color-primary);
 }
 
-nav.menu ul {
+nav.menu {
     display: flex;
     align-items: stretch;
     height: 100%;
 }
 
+nav.menu ul {
+    display: flex;
+    height: 100%;
+}
+
 nav.menu ul li {
+    display: flex;
+    align-items: center;
     font-size: 11px;
     font-family: var(--font-open-sans);
     font-weight: bold;
     letter-spacing: 3px;
     color: var(--color-black);
-    padding: 27px 20px;
+    padding: 0 20px;
     margin: 0 20px;
     border-bottom: 4px solid transparent;
     height: 100%;
