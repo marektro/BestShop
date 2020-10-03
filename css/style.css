@@ -7,6 +7,7 @@
     --color-white: #ffffff;
     --color-grey: #a5a5a5;
     --color-light-grey: #f7f7f7;
+    --color-grey-border: #E8E9ED;
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
 }
@@ -224,4 +225,13 @@ h2 {
     margin-top: 20px;
     font-weight: normal;
     color: var(--color-grey);
+}
+
+.benefits {
+    background: var(--color-light-grey);
+}
+
+.benefits .container {
+    background: var(--color-white);
+    border: 1px solid var(--color-grey-border);
 }
