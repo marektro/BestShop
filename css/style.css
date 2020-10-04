@@ -431,7 +431,16 @@ h2 {
     height: 11px;
     display: inline-block;
     margin-right: 10px;
-    background: url("/assets/Checkmark-1.svg");
+    background: url("/assets/Ckechmark-1.svg");
+}
+
+.pricing-box-list-item-excluded::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url("/assets/Close.svg");
 }
 
 .pricing-box .button {
