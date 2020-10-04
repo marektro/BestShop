@@ -467,3 +467,43 @@ h2 {
 .pricing-box-premium {
     --accent-color: var(--color-green);
 }
+
+.contact {
+    padding: 80px 100px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-column {
+    width: 50%;
+}
+
+.contact-title {
+    font-size: 3.06rem;
+    line-height: 3.69rem;
+    text-align: left;
+}
+
+.contact-instruction {
+    margin: 22px 0 42px;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--color-grey);
+}
+
+.contact-details-item {
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-details-item img {
+    margin-right: 10px;
+}
+
