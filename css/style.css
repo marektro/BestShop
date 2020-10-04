@@ -57,6 +57,7 @@ li:hover a {
     height: 70px;
     width: 100%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    z-index: 3;
 }
 
 .page-header .container {
@@ -469,7 +470,7 @@ h2 {
 }
 
 .contact {
-    padding: 80px 250px 250px;
+    padding: 80px 250px;
     display: flex;
     justify-content: center;
 }
@@ -589,4 +590,32 @@ h2 {
     padding: 20px 97px;
     align-self: flex-end;
     margin-top: 20px;
+}
+
+.footer {
+    box-shadow: 0 -5px 40px #00000029;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer-copy {
+    font-size: 0.69rem;
+    line-height: 1.5rem;
+    color: var(--color-grey);
+    margin-top: 6px;
+}
+
+.footer-icons a:first-of-type {
+    margin-right: 20px;
 }
