@@ -375,5 +375,95 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    border-radius: 18px;
+    border: 1px solid var(--accent-color);
+}
+
+.pricing-box-info {
+    margin-top: 34px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.pricing-box-name {
+    font-size: 1.25rem;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+}
+
+.pricing-box-price {
+    font-size: 2.875rem;
+    font-family: var(--font-open-sans);
+    font-weight: 300;
+    margin-top: 25px;
+    color: var(--accent-color);
+}
+
+.pricing-box-limited {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.75rem;
+    font-family: var(--font-raleway);
+    font-weight: 700;
+}
+
+.pricing-box-list {
+    text-align: center;
+}
+
+.pricing-box-list-item {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.pricing-box-list-item::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background: url("/assets/Close.svg");
+}
+
+.pricing-box .button {
+    position: relative;
+    bottom: -25px;
+    font-size: 0.8125rem;
+    background: var(--accent-color);
+    padding: 16px 64px;
+    box-shadow: 5px 1px 27px var(--color-primary-shadow)}
+
+.pricing-box-basic {
+    --accent-color: var(--color-redish);
+}
+
+.pricing-box-basic .pricing-box-price {
+    margin-bottom: 30px;
+}
+
+.pricing-box-professional {
+    --accent-color: var(--color-primary);
+    width: 400px;
+    margin: 0 40px;
+    box-shadow: 5px 1px 27px var(--color-primary-shadow);
+}
+
+.pricing-box-professional .pricing-box-name {
+    font-size: 1.313rem;
+}
+
+.pricing-box-professional .pricing-box-list-item {
+    margin-bottom: 25px;
+}
+
+.pricing-box-premium {
+    --accent-color: var(--color-green);
+}
