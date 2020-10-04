@@ -362,3 +362,18 @@ h2 {
 .benefits-double-card .benefits-card:last-of-type .benefits-card-image::before {
     display: none;
 }
+
+.pricing {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
