@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #08a6e4;
+    --color-primary-shadow: rgba(7, 172, 230, 0.16);
+    --color-redish: #fb3b64;
+    --color-green: #55dfb4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey: #a5a5a5;
+    --color-light-grey: #f7f7f7;
+    --color-grey-border: #E8E9ED;
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+}
+
+body {
+    font-family: var(--font-open-sans);
+    background: var(--color-white);
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1352px;
+    min-width: 500px;
+
+    @media (max-width: 1352px) {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@import "page-header";
+@import "opening";
+@import "statistics";
+@import "benefits";
+@import "pricing";
+@import "contact";
+@import "footer";

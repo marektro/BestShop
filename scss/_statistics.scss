@@ -1,0 +1,82 @@
+.statistics {
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: var(--font-raleway);
+    font-weight: normal;
+}
+
+.statistics-content {
+    max-width: 800px;    
+}
+
+.statistics-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 120px auto;
+}
+
+.statistics-item {
+    display: flex;
+    max-width: 160px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-raleway);
+}
+
+.statistics-item-circle {
+    position: relative;
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+
+.statistics-item-circle-icon {
+    position: absolute;
+}
+
+.statistics-item:nth-of-type(1) .statistics-item-circle {
+    background: var(--color-redish);
+}
+
+.statistics-item:nth-of-type(1) .statistics-item-circle-icon {
+    top: 4px;
+    left: 50%;
+}
+
+.statistics-item:nth-of-type(2) .statistics-item-circle {
+    background: var(--color-primary);
+}
+
+.statistics-item:nth-of-type(2) .statistics-item-circle-icon {
+    top: 14px;
+    left: 35%;
+}
+
+.statistics-item:nth-of-type(3) .statistics-item-circle {
+    background: var(--color-green);
+}
+
+.statistics-item:nth-of-type(3) .statistics-item-circle-icon {
+    top: 7px;
+    left: 51%;
+}
+
+.statistics-item-figure {
+    font-size: 1.25rem;
+    letter-spacing: 0.375rem;
+    margin-top: 15px;
+    font-weight: 800;
+}
+
+.statistics-item-text {
+    font-size: 1.0625rem;
+    margin-top: 20px;
+    font-weight: normal;
+    color: var(--color-grey);
+}
